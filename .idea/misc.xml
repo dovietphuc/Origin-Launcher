@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34814814814814815" />
+        <entry key="app/src/main/res/drawable-v26/ic_deepshortcut_placeholder.xml" value="0.34814814814814815" />
+        <entry key="app/src/main/res/drawable-v26/ic_launcher_home.xml" value="0.34814814814814815" />
+        <entry key="app/src/main/res/layout/drop_target_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/scrim_view.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/workspace_screen.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/xml/launcher_preferences.xml" value="0.35572916666666665" />
+        <entry key="iconloaderlib/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34814814814814815" />
+        <entry key="iconloaderlib/src/main/res/drawable-v26/adaptive_icon_drawable_wrapper.xml" value="0.34814814814814815" />
+        <entry key="iconloaderlib/src/main/res/drawable/ic_instant_app_badge.xml" value="0.34814814814814815" />
+        <entry key="iconloaderlib/src/main/res/drawable/ic_launcher_background.xml" value="0.34814814814814815" />
+        <entry key="quickstep/src/main/res/layout/gesture_tutorial_fragment.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

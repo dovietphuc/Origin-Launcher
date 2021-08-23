@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.android.launcher3"
+        minSdk 29
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation project(':iconloaderlib')
+    implementation project(':src_plugins')
+    implementation files('libs/protobuf-java-4.0.0-rc-2.jar')
+    implementation files('libs/SystemUISharedLib.jar')
+//    implementation 'com.google.android.exoplayer:exoplayer:2.13.3'
+    implementation 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-7'
+//    implementation files('libs/protobuf-java-2.3.0.jar')
+    // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
+//    implementation 'com.google.protobuf:protobuf-java:4.0.0-rc-2'
+//    implementation 'io.grpc:grpc-okhttp:1.40.0'
+//    implementation 'io.grpc:grpc-protobuf-lite:1.40.0'
+//    implementation 'io.grpc:grpc-stub:1.40.0'
+//    compileOnly 'org.apache.tomcat:annotations-api:6.0.53'
+
+    implementation 'androidx.preference:preference:1.1.1'
+}
